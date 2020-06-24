@@ -1,14 +1,19 @@
-import React  from 'react';
+import React, { Component }  from 'react';
 import './Pill.css';
 
-const Pill = (props) => {
-    return(
-    <div class="flex-container">
-        <div className="pill-left">Left</div>
-        <div className="pill-right">Right</div>
-    </div>
-    
-    )
+class Pill extends Component {
+    render(){
+
+        return(
+            <div class="app">
+                <h1 className="pill-title">Open the pill!</h1>
+                <div className="flex-container">
+                    <div className="pill-left"></div>
+                    <div className="pill-right"></div>
+                </div>
+            </div> 
+            )
+    }  
 }
 
 

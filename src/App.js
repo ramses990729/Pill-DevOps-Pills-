@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from './Containers/Layout/Layout';
 import './App.css';
 import Pill from './Components/Pill/Pill';
-import Button from './Components/UI/Button';
+import Button from './Components/UI/Button/Button';
 
 function App() {
   return (

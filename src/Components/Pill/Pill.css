@@ -5,11 +5,28 @@
     justify-content: center;
 }
 
+.pill-title{
+    justify-self: center;
+    margin: 0;
+    display: flexbox;
+}
+
 .pill-left {
     display: flex;
-    background-color: lightgreen;
+    background-image: linear-gradient(to bottom, rgb(61, 4, 4), rgb(129, 5, 5));
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    margin: 5% 0px;
 }
 .pill-right {
     display: flex;
-    background-color: red;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+    border-bottom-right-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 30%;
+    width: 30%;
+    min-height: 200px;
+    margin: 5% 0px;
 }
