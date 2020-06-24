@@ -1,0 +1,10 @@
+.PillContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+  }
+  

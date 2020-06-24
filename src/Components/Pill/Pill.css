@@ -1,0 +1,15 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pill-left {
+    display: flex;
+    background-color: lightgreen;
+}
+.pill-right {
+    display: flex;
+    background-color: red;
+}
