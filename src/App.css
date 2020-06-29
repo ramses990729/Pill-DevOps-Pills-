@@ -1,6 +1,7 @@
 body {
-  background: url('./assets/back.jpg') no-repeat fixed center;
+  background: url('./assets/img/back.jpg') no-repeat fixed center;
   height: 100%;
+  font-family: 'Comic Sans Ms';
 }
 
 
